@@ -25,7 +25,7 @@ echo "Staring the validator"
     --gossip-port 8001 \
     --rpc-bind-address 192.168.179.130 \
     --rpc-port 8899 \
-    --limit-ledger-size 60000000 \
+    --limit-ledger-size 50000000 \
     &
 
 
