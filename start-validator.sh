@@ -6,7 +6,7 @@ echo "Staring the validator"
     --max-genesis-archive-unpacked-size 1073741824 \
     --no-poh-speed-test \
     --no-os-network-limits-test \
-    --entrypoint "62.169.26.6:8001" \
+    --entrypoint "84.247.191.232:8001" \
     --entrypoint "154.12.240.128:8001" \
     --entrypoint "154.26.155.11:8001" \
     --identity ~/.openos/identity.json \
@@ -26,6 +26,9 @@ echo "Staring the validator"
     --rpc-bind-address 192.168.179.130 \
     --rpc-port 8899 \
     --limit-ledger-size 50000000 \
+    --known-validator FzRehfykUTXYGkAtK6uJLPsALDhVRoU5CNhMM2LwBAQB\
+    --halt-on-known-validators-accounts-hash-mismatch \
+
     &
 
 
