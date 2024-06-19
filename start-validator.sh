@@ -26,9 +26,8 @@ echo "Staring the validator"
     --rpc-bind-address 192.168.179.130 \
     --rpc-port 8899 \
     --limit-ledger-size 50000000 \
-    --known-validator FzRehfykUTXYGkAtK6uJLPsALDhVRoU5CNhMM2LwBAQB\
+    --known-validator qQi2ZZMfHqd2a2qDh8ixLjoBSvcvz5ou2vvJN1af3NM \
     --halt-on-known-validators-accounts-hash-mismatch \
-
     &
 
 
